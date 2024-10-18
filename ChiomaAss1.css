@@ -1,0 +1,147 @@
+html {
+    background-color: #faf4d7;
+}
+
+
+.image {
+    height: 350px;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    padding-top: 5px;
+
+}
+
+
+h1{
+background-color:antiquewhite;
+margin: 0;
+padding-top: 20px;
+padding-bottom: 25px;
+color: #2c2c2c;
+text-align: center;
+font-family: 'montserrat';
+font-weight: 550;
+}
+
+.TechyLinknav {
+    padding-top: 25px;
+    margin-left: 50px;
+}
+
+.TechyLink{
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s;
+    
+}
+
+.TechyLink:hover {
+    color: rgb(94, 99, 94);
+}
+
+.TechyLink.clicked {
+    color: purple;
+}
+
+h2 {
+font-family: 'montserrat';   
+margin-left: 50px; 
+margin-top: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(94, 99, 94);
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.Introduction {
+    margin-left: 50px;
+    width: 60vw;
+    text-align: justify;
+}
+
+p {
+    margin-left: 50px;
+}
+
+
+.content {
+    margin-left: 50px;
+}
+
+table, th, td {
+    margin: 50px;
+    width: 50vw;
+    border-collapse: collapse;
+    margin-left: 50px;
+  
+    
+    
+}
+
+table {
+    width: 60%;
+    text-align: left;
+    
+}
+
+th, td {
+    width: 33%;
+    padding: 10px;
+    border: 1px solid #ff7f50;
+    color: #000080;
+    }
+
+form {
+    margin-left: 50px;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 40vw;
+}
+
+#course {
+    font-family: monospace;
+    font-style: italic;
+    width: 30vw;
+} /* To format text of course options */
+
+#Course {
+    display: inline-block;
+    align-items: center;
+    margin-right: 10 px;
+} /* to format div for course selection */
+
+:placeholder-shown {
+    font-family: monospace;
+    font-style: italic;
+    opacity: 1;
+} /* to format place holder texts */
+
+#male, #female {
+    width: 15px;} /* To format width of input label for gender */
+
+#Dob {
+    width: 30vw;
+}
+
+textarea {
+    height: 200px;
+    width: 40vw;
+} /* to format text area for describing expectations */

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn To Code - Frontend</title>
+    <link rel="stylesheet" href="ChiomaAss1.css">
+</head>
+<body>
+   <h1>Welcome to "Learn to code-Frontend" Page</h1>
+
+   <nav >
+    <ul class="nav">
+    <li><a href="#Introduction">Introduction</a></li>
+    <li><a href="#Table">Table of Information</a></li>
+    <li><a href="#ContactForm">Contact Form</a></li>
+    </ul>
+   </nav>
+
+   
+   <img class="image" src="Images/portrait-professional-elegant-businesswoman.jpg" alt="a female programmer working"> 
+   
+   <nav class="TechyLinknav"><a class=TechyLink target="_blank" role="link" href="https://www.techyjaunt.com/">Visit TechyJaunt</a></nav>
+
+   <div><br><br><br>
+
+
+   <h2>Webpage Contents</h2>
+    <ul class="content">
+    <li>Introduction</li>
+    <li>Table of Information</li>
+    <li>Contact Form</li>
+    </ul> 
+</div><br><br>
+
+
+    <h2 id="Introduction">Introduction</h2>
+    <p class="Introduction">At TechyJaunt, we are passionate about empowering the next generation of web developers. Our mission is to provide cutting-edge, hands-on training in front-end development, equipping aspiring developers with the skills and knowledge needed to thrive in the rapidly evolving tech industry.</p>
+
+    <p class="Introduction">Founded by experienced professionals with years of expertise in web development, our courses are designed to cater to all skill levels, from beginners to advanced developers. We believe in a practical, project-based approach to learning, ensuring that our students not only understand theoretical concepts but can also apply them to real-world challenges.</p>
+        
+    <p class="Introduction">Our curriculum covers essential front-end technologies such as HTML5, CSS3, JavaScript, and modern frameworks like React, Angular, and Vue.js. We emphasize best practices, responsive design, and optimization techniques to create beautiful, functional, and user-friendly web experiences.</p>
+   </div><br><br>
+
+
+   <div>
+    <h2 id="Table">Table of Information</h2>
+    <p>This table summarizes Information regarding the course and training schedule</p>
+<table>
+    <tr>
+        <th>Course Name</th>
+        <th>Duration</th>
+        <th>Difficulty Level</th>
+    </tr>
+
+    <tr>
+        <td>Introduction to HTML & CSS</td>
+        <td>2 Weeks</td>
+        <td>Beginner</td>
+    </tr>
+
+    
+    <tr>
+        <td>Responsive Web Design</td>
+        <td>3 Weeks</td>
+        <td>Intermediate</td>
+    </tr>
+
+    
+    <tr>
+        <td>JavaScript Basics</td>
+        <td>4 Weeks</td>
+        <td>Beginner</td>
+    </tr>
+
+    
+    <tr>
+        <td>Advanced JavaScript & DOM Manipulation</td>
+        <td>4 Weeks</td>
+        <td>Intermediate</td>
+    </tr>
+
+    
+    <tr>
+        <td>Frontend Frameworks</td>
+        <td>6 Weeks</td>
+        <td>Advanced</td>
+    </tr>
+
+    
+    <tr>
+        <td>Version Control & Deployment</td>
+        <td>1 Week</td>
+        <td>Beginner</td>
+    </tr>
+
+    
+</table>
+   </div><br><br><br>
+
+
+<div>
+    <h2 id="ContactForm">Contact Form</h2>
+    <p>Fill this form to register for this cohort</p>
+    <form>
+        <label for="firstname">First Name</label><br>
+        <input type="text" id="firstname" placeholder="Input your first name"><br>
+
+        <label for="lastname">Last Name</label><br>
+        <input type="text" id="lastname" placeholder="Input your last name"><br>
+
+        <label for="middlename">Middle Name</label><br>
+        <input type="text" id="middlename" placeholder="Input your middle name"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Input your email address"><br><br>
+
+        <div id="gend">
+        <label for="gender">Gender</label><br><br>
+        
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br><br>
+    </div>
+
+        <label for="dateofbirth">Date of Birth</label> 
+        <input type="date" id="Dob" min="1900-01-01" max="2014-12-31"><br><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" minlength="6" maxlength="10" placeholder="Input a Username" required><br><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="choose a passsword" part="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"><br><br><br>
+
+        <div id="Course">
+        <label for="course">Course of Choice</label>
+        <select id="course" name="course">
+            <option value="front-end">Frontend Development</option>
+            <option value="back-end">Backend Development</option> 
+        </select>
+    </div><br><br><br><br>
+
+    <label for="expectations">What are the objectives you hope to attain by participating in this cohort</label><br><br>
+    <textarea id="expectations" placeholder="Describe your expectations in details" maxlength="500"></textarea>
+
+    </form>
+</div>
+</body>
+</html>
